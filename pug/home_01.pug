@@ -1,0 +1,265 @@
+
+doctype html
+html
+	head
+		meta(charset='utf-8')
+		meta(http-equiv='X-UA-Compatible', content='IE=edge')
+		meta(name='viewport', content='width=device-width, initial-scale=1.0')
+		title Madala
+		link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css')
+		script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js')
+		script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js')
+		script(src='https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js')
+
+		//- Font-awesome
+		link(rel='stylesheet', href='https://use.fontawesome.com/releases/v5.6.3/css/all.css', integrity='sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/', crossorigin='anonymous')
+
+		//- Font-family
+		link(href='https://fonts.googleapis.com/css?family=Rochester', rel='stylesheet')
+		link(rel='stylesheet', type='text/css', href='../css/style.css')
+
+	body
+		//header---------------------------------------------------------------------
+		//---------------------------------------------------------------------------
+		header.header#hearder
+			//menu-------------------------------
+			.header-top
+				nav.navbar.navbar-expand-md.navbar-dark.header-menu
+					.container
+						.menu_left
+							.logo
+								a
+									span.m M
+								span.adala  adala
+						.menu_right
+							#myNavbar.collapse.navbar-collapse
+								ul.nav.navbar-nav
+									li.nav-item
+										a.nav-link(href='#') TRANG CHỦ
+									li.nav-item
+										a.nav-link(href='#') GIỚI THIỆU
+									li.nav-item
+										a.nav-link(href='#') SẢN PHẨM
+									li.nav-item
+										a.nav-link(href='#') TIN TỨC
+									li.nav-item
+										a.nav-link(href='#') BÁN ĐỒ
+									li.nav-item
+										a.nav-link(href='#') LIÊN HỆ
+
+						.icon
+							i.fas.fa-shopping-cart
+							i.fas.fa-search
+			//slide--------------------------------
+			//- img(src='img/bg_header.png', style='height:100%,width:100%');
+			.header-bottom
+				.container
+					.wrapper
+						.item.item6
+							img(src='../img/01_Home_03.jpg', alt='product-slide')
+						.item.item7
+							.header-bottom_text
+								ul
+									li
+										h2 GREEN VERA
+									li
+										p Sản phẩm tinh dầu dưỡng da mới nhất của Mandala
+									li
+										p Giá chỉ  750.000 
+											span đ
+									li
+										button.btn.btn-link(type='button') Mua hàng
+						.item.item8
+							img(src='../img/01_Home_02.jpg',alt='woman-slide',height='770px')
+					
+		//body---------------------------------------------------------------------
+		//-------------------------------------------------------------------------
+		body.body#body
+			//menu-child----------------------
+			section.section1#section1
+				.container#menu-child
+					ul
+						li.plan(href='#')
+							i.fas.fa-plane
+							p Miễn phí vận chuyển
+						li.gift(href='#',style='border-left:#2c2c2c4d solid 1px')
+							i.fas.fa-gift
+							p Nhận ngay quà tặng trị giá 350.000đ
+						li.star(href='#',style='border-left:#2c2c2c4d solid 1px')
+							i.fas.fa-star
+							p Giảm 30% cho đơn hàng trên 5.000.000đ
+				//wrapper------------------------
+				.container#wrapper
+					.wrapper#wrapper1
+						.item.item1
+							img(src='../img/product-1.png', alt='product-1')
+							span
+								a My City
+						.item.item2
+							img(src='../img/Shape 10.png', alt='shape-10')
+							span
+								a My City
+						.item.item3
+							img(src='../img/Shape 10 copy.png', alt='shape-10-copy')
+							span
+								a My City
+						.item.item4
+							img(src='../img/01_Home_07.jpg', alt='01_Home_07')
+							span
+								a My City
+						.item.item5
+							img(src='../img/01_Home_04.jpg', alt='01_Home_04')
+							span
+								a My City
+					.wrapper#wrapper2
+						.item.item9
+							img(src='../img/01_Home_04-07.jpg', alt='01_Home_04-07')
+							span
+								a My City
+						.item.item10
+							img(src='../img/Shape 10 copy 2.png', alt='Shape 10 copy 2')
+							span
+								a My City
+						.item.item11
+							img(src='../img/01_Home_11.jpg', alt='01_Home_11')
+							span
+								a My City
+						.item.item12
+							img(src='../img/01_Home_15.jpg', alt='01_Home_15')
+							span
+								a My City
+						.item.item13
+							img(src='../img/Static block copy.png', alt='Static block copy')
+							span
+								a My City
+					.flex-container
+						.item.item14
+							.item14_img
+								.item14_img_1
+									img(src='../img/01_Home_19.png', alt='01_Home_19')
+								.item14_img_2
+									img(src='../img/01_Home_20.png', alt='01_Home_20')
+						.item.item15
+							
+							.item15_1
+								p “ Vẫn là vẻ bề ngoài vô cùng đơn giản với các tông màu trắng, hồng làm chủ đạo nhưng lại tạo ra sức hút kỳ lạ với những ai cầm trên tay sản phẩm ấy! Với công nghệ cải tiến mới nhất, hãng Rohto  ”
+								p 
+									span
+										a TutiLe
+									|_ Giám đốc phát triển sản phẩm
+								.point-text
+									.point
+										img(src='../img/w1.png', alt='w1')
+									.point
+										img(src='../img/w2.png', alt='w2')
+									.point
+										img(src='../img/w3.png', alt='w3')
+							.item15_2
+								img(src='../img/Layer 96.png', alt='Layer 96')
+			//san-pham-ban-chay------------------------
+			section.section2#section2
+				.section2-top
+					.container
+						.section2-top_logo
+							ul
+								li.item1
+									a Sản phẩm mới
+								li.item3
+									a 
+										span Sản phẩm bán chạy
+								li.item2
+									a Sản phẩm đặc biệt
+						.section2-top_img
+								img(src='../img/01_Home_44.jpg', alt='01_Home_44')
+						.section2-top_menu
+							ul(style='padding-top: 60px,padding-left: 85px,padding-right: 85px;width: 100%')
+								li.list1(href='#')
+									a Mỹ phẩm
+								li.list2(href='#')
+									a Chăm sóc da
+								li.list3(href='#')
+									a Nước hoa
+								li.list4(href='#')
+									a Trang sức
+								li.list5(href='#')
+									a Dành cho tóc
+								li.list6(href='#')
+									a Trang sức
+								
+				.section2-bottom
+					.flex-container
+						//- .item1
+						//- 	+item('../img/Product copy 10.png','TYFFANY')
+						//- .item2
+						//- 	+item('../img/Product copy 4.png','OHUI')
+						//- .item3
+						//- 	+item('../img/01_Home_32.jpg','HOME')
+						//- .item4
+						//- 	+item('../img/01_Home_35.jpg','DEBORA')
+						//- .item5
+						//- 	+item('../img/01_Home_38.jpg','SAREVON')
+						//- .item6
+						//- 	+item('../img/Product copy 9.png','TIFFANY')
+
+						.item.item1
+							img(src='../img/Product copy 10.png', alt='Product copy 10')
+							.item-description
+								p.name 
+									span
+										a TYFFANY
+								p.kind Mỹ phẩm Châu Âu
+								p.number 355.000
+									span đ
+
+						.item.item2
+							img(src='../img/Product copy 4.png',alt='Product copy 4')
+							.item-description
+								p.name 
+									span
+										a OHUI
+								p.kind Mỹ phẩm Châu Âu
+								p.number 355.000
+									span đ
+						.item.item3
+							img(src='../img/01_Home_32.jpg',alt='01_Home_32')
+							.item-description
+								p.name 
+									span
+										a HOME
+								p.kind Mỹ phẩm Châu Âu
+								p.number 355.000
+									span đ
+						.item.item4
+							img(src='../01_Home_35.jpg',alt='01_Home_35')
+							.item-description
+								p.name 
+									span
+										a DEBORA
+								p.kind Mỹ phẩm Châu Âu
+								p.number 355.000
+									span đ
+						.item.item5
+							img(src='../img/01_Home_38.jpg',alt='01_Home_38')
+							.item-description
+								p.name 
+									span
+										a SAREVON
+								p.kind Mỹ phẩm Châu Âu
+								p.number 355.000
+									span đ
+						.item.item6
+							img(src='../img/Product copy 9.png',alt='Product copy 9')
+							.item-description
+								p.name 
+									span
+										a TYFFANY
+								p.kind Mỹ phẩm Châu Âu
+								p.number 355.000
+									span đ
+				.section2-button
+					.cotainer-fluid
+						button.button1 MUA HÀNG
+						button.button2
+							i.fas.fa-heart
+						button.button3 12px
+	footer

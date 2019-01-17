@@ -1,0 +1,37 @@
+//color
+$green: #789629;
+$grey: #2c2c2c;
+
+
+
+//font-family
+$font-logo:'Thirsty Script Extrabold Demo';
+$font-menu:'Open Sans';
+// $font-slide:;
+
+
+//extend-wrapper-----------
+%wrapper{
+
+}
+%wrapper-item{
+	width: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+//extend-button-home_01
+%button-item{
+	border-radius: 12px;
+	
+	border: none;
+	
+	padding: 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}

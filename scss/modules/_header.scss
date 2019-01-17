@@ -1,0 +1,52 @@
+//menu+slide--------------------------------------
+header{
+	height: 866px;
+	width: 100%;
+	background: url('../img/bg_header.png');
+	color:green;
+}
+.header-top{
+	height: 78px;
+	background: url('../img/bg_menu.png');
+	
+	.icon i{
+		margin-right: 40px;
+	}
+}
+.menu-right{
+	width: 60%;
+	}
+nav.navbar{
+	padding: 10px 70px; 
+}
+.navbar-dark .navbar-nav .nav-link {
+	color: black!important;
+	font-size: 12px;
+	font-family: 'Open Sans';
+}
+a{	
+	font-family: 'Thirsty Script Extrabold Demo';
+	span.m {	
+		// background-color: $green;
+		color:white;
+		font-size: 37px;
+	}
+	.adala{	
+		color:black;
+		font-size: 34px;
+	}
+}
+
+//header-bottom----------------------------------------
+// .header-bottom{
+// 	height: auto;
+// 	color:green;
+// }
+// .header-botom_text{
+// 	text-align: center;
+// }
+.item.item8{
+	@extend %wrapper-item;
+	grid-column: 2/3;
+  	grid-row: 1/span 2;
+}
